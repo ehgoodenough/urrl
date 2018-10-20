@@ -2,6 +2,7 @@
   "name": "urrl",
   "version": "1.0.0",
   "description": "Create an unfinished URL.",
+  "main": "index.js",
   "contributors": [
     "Andrew McPherson <@ehgoodenough>"
   ],
