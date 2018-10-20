@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Create an unfinished URL.",
   "main": "index.js",
+  "license": "MIT",
   "contributors": [
     "Andrew McPherson <@ehgoodenough>"
   ],
