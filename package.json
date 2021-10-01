@@ -1,14 +1,22 @@
 {
   "name": "urrl",
-  "version": "1.0.0",
-  "description": "Create an unfinished URL.",
+  "version": "1.0.1",
+  "description": "Create an template URL.",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "contributors": [
     "Andrew McPherson <@ehgoodenough>"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/ehgoodenough/urrl"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.2"
   }
 }

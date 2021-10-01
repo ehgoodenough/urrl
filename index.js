@@ -8,8 +8,9 @@
 // let url = POKEMON_URRL({"name": "bulbasaur"})
 // window.fetch(url)
 
-module.exports = function Urrl(url) {
+export default function Urrl(urrl) {
     return function(parameters) {
+        let url = urrl
         for(var key in parameters) {
             url = url.replace("{" + key + "}", parameters[key])
         }
